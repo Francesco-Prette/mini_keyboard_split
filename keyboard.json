@@ -1,0 +1,42 @@
+{
+    "manufacturer": "francesco-prette",
+    "keyboard_name": "mini-keyboard-split",
+    "maintainer": "francesco-prette",
+    "tags": ["ortho", "split"],
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "features": {
+    },
+    "matrix_pins": {
+        "cols": ["B6", "B2"],
+        "rows": ["B5", "B4"]
+    },
+    "split": {
+        "serial": {
+            "driver": "vendor"
+        }
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3}
+            ]
+        }
+    }
+}
