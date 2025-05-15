@@ -13,8 +13,18 @@
         "rows": ["B5", "B4"]
     },
     "split": {
+        "enabled": true,
         "serial": {
-            "driver": "vendor"
+            "pin": "D2"
+        },
+        "usb_detect": {
+            "enabled": true
+        },
+        "matrix_pins": {
+            "right": {
+                "cols": ["B6", "B2"],
+                "rows": ["B5", "B4"]
+            }
         }
     },
     "usb": {
